@@ -36,7 +36,6 @@ class Cartola extends Component {
 
   render() {
     const { atletas, clubes, posicoes, status, loading, error } = this.state;
-    console.log(atletas, loading);
     return (
       <div>
         <h1>Cartola</h1>
